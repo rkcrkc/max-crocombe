@@ -1,26 +1,130 @@
-@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Roboto:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100|Lato:100,400);
 
-
-#page-wrap {
+body {
+	font-family: "Roboto", sans-serif;
+	
+	color: white;
+	line-height: 2;
 	text-align: center;
-	width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	background: rgba(0,0,0,0);
 }
 
+$body-bg: rgba(0,0,0,0.5);
+
 #intro {
+	color: white;
+	padding-top: 175px;
+	height: 600px;
+	h1 {
+		font-family: "Roboto", sans-serif;
+		font-weight: 100;
+		font-size: 100px;
+	}
+	h2 {
+		font-family: "Roboto", serif;
+		font-size: 24px;
+		font-weight: 300;
+		color: #FF6F2F;
+	}
+}
+
+.logo {
+	margin-right: 30px;
+}
+
+.inversion img {
+	filter: invert(100%);
+}
+
+
+#navbar {
 	width: 500px;
+	height: 105px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 25px;
-	text-align:	center;
-	}
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+#navbar a {
+	color: white;
+	text-decoration: none;
+}
+
+#career {
+	font-family: "Roboto", sans-serif;
+	height: 500px;
+	background-color: white;
+}
+
+#career-main {
+	width: 65%;
+	height: 100%;
+	float: left;
+	padding: 15px;
+	text-align: left;
+}
+
+#career-side {
+	width: 35%;
+	height: 100%;
+	float: left;
+	padding: 15px;
+	padding-left: 35px;
+	text-align: left;
+}
+
+h3 {
+	text-align: left;
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+}
+
+#gallery {
+}
 
 .carousel img {
-	width: 700px;
-	height: 550px;
-	margin: 0 auto;
+	width: 100%;
+	height: 705px;
+}
+
+#profile {
+	font-family: "Roboto", sans-serif;
+	height: 500px;
+	margin-top: -30px;
+	background-color: white;
+}
+
+#profile-left {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+#profile-right {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+#interview {
+	font-family: "Roboto", sans-serif;
+	height: 500px;
+	margin-top: -30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: left;
+	background-color: #EB6F2F;
+}
+
+#contact {
+	font-family: "Roboto", sans-serif;
+	height: 255px;
+	padding-top: 30px;
+	color: white;
 }
 
 @import 'bootstrap';

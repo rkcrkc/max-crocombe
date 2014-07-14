@@ -6,6 +6,7 @@ $(document).ready(function(){
 	  speed: 600,
 	  touchMove: false,
 	  pauseOnHover: true,
-	  fade: true
+	  fade: true,
+	  arrows: false
 	});
 });
