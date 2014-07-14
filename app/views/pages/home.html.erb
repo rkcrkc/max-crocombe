@@ -1,10 +1,32 @@
-<h1>Max Crocombe</h1>
-
-<div class="container">
+<div id="intro">
 	<p>
-		<%= image_tag "http://www.vectorsland.com/imgd/l97533-oxford-united-fc-logo-13446.png", size: "150x150" %>
-		<%= image_tag "http://upload.wikimedia.org/wikipedia/en/6/6b/New_Zealand_Football.svg", size: "130x130" %>
+		<%= link_to (image_tag "http://www.vectorsland.com/imgd/l97533-oxford-united-fc-logo-13446.png", size: "75x75"), "http://www.oufc.co.uk/news/", target: "_blank" %>
+		<%= link_to (image_tag "http://upload.wikimedia.org/wikipedia/en/6/6b/New_Zealand_Football.svg", size: "60x60"), "http://www.nzfootball.co.nz/", target: "_blank" %>
 	</p>
 	<br>
-	<p>Bio	Pictures	Stats	Contact</p>
+	<br>
+
+	<h1>Max Crocombe</h1>
+	<br>
+	<br>
+
+	<p>
+		Goalkeeper for Oxford United FC and New Zealand U20 national team
+	</p>
+	<br>
+	<br>
+
+	<div class="row">
+		<div class="col-xs-3"><%= link_to "Career", bio_path %></div>
+		<div class="col-xs-3">Gallery</div>
+		<div class="col-xs-3">Stats</div>
+		<div class="col-xs-3">Contact</div>
+	</div>
+
 </div>
+
+<br>
+<br>
+<br>
+
+<%= render 'carousel' %>
